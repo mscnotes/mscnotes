@@ -6,6 +6,56 @@
 ### Daha Önceki Yapılanlar:
 
 #### 2025- [Web ve API zafiyetlerine yönelik güvenlik stratejileri ile XSS saldırılarının makine öğrenmesi yöntemleriyle tespiti / Security strategies against web and API vulnerabilities with machine learning-based detection of XSS attacks](https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=5NNqZKwwGohPh6_KCcfp-myt0P_QOT1jo-ozRpzUdNNROiYc4zz334CqvVir3lB0)
+1. **Tezin Amacı Ne?**
+Web Zaafiyetleriyle bu zaafiyetlerin çözüm yöntemleri incelenmiş. XSS zaafiyeti Makine öğrenmesi yöntemiyle önlenmeye çalışılmıştır.
+
+3. **Hangi probleme çözüm sunmuşlar?**
+OWASP TOP 10 zaafiyetlerine ve XSS saldırısına çözüm sunuyor.
+
+
+4. **Tezin sırası ve hangi sırayla ne anlattığı?**
+-  Tezin amacı ve Ne için yapıldığı
+-  İlgili Çalışmalar
+-  OWASP TOP TEN listelemiş ve açıklamış
+-  OWASP TOP TEN in gerçek dünya üzerine riskleri bahsedilmiş.
+-  WEB Güvenliği için genel koruma senaryolarından bahsedilmiş.
+-  Güncel Web güvenliği Pentesti (Juice Shop üzerinden OWASP TOP TEN) 
+-  Makine Öğrenmesi Yardımıyla XSS Tespiti
+
+5. **Kullanmış oldukları veriler neler?** 
+
+Kaggle Veriseti 13038  satırdan oluşan 0 lar payloadın güvenli 1 olması da payloadın zararlı olduğunu söylüyor.
+
+[Cross site scripting XSS dataset for Deep learning](https://www.kaggle.com/datasets/syedsaqlainhussain/cross-site-scripting-xss-dataset-for-deep-learning)
+
+
+7. **Hangi Teknikleri Kullanmışlar?**</br>
+BoW ve TFIDF teknikleri kullanılarak metinsel ozellik çıkarılmıştır. Bu metinsel özelliklere de ADABOOST , DT, KNN, Lojistik Regresyon (Logistic Regression: LR), MLP, Gaussian, Naive Bayes (NB), RF ve SVM algoritmaları testiyle test yapılmıştır. Ayrıca XGBClassifier gibi deişik bir sınıflandırma da kullanılmış.
+
+
+8. **Kullandıkları Çözüm Yöntemleri Neler?**
+Veri Önişleme Yöntemi (NTLK) label ve sentence ayrımı yapılmış.
+Metin Temsil Yöntemi : Bow ve TFIDF yöntemi kullanılmış
+Öznitelik Seçimi Yöntemi: CC, CSFSUBNET, IG, GR,ONER
+Birleşik Öznitelik Seçimi Yöntemi: Input: 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑆𝑒𝑡𝑠 = [𝐶 𝑓 𝑠𝑆𝑢𝑏𝑠𝑒𝑡, 𝐶𝐶, 𝐼𝐺, 𝐺𝑅, 𝑂𝑛𝑒𝑅]
+                                  Output: 𝐶𝑜𝑚𝑚𝑜𝑛𝐹𝑒𝑎𝑡𝑢𝑟𝑒�
+   
+
+
+
+10. **Ne kadar başarı elde etmişler?**</br>
+%99 un üzerinde başarı elde ettikleri algoritmalar olmuş.
+
+
+
+11. **Buldukları Çözümlerde Eksikleri Neler? Neleri Es Geçmişler?Ne yapmamışlar**</br>
+Gerçek hayata uygulaması düşük kalmış. Train test verisinden pek detaylı bahsedilmemiş.
+
+
+14. **Sonuç !!!**
+
+
+
 
 #### 2024-[Siber güvenlikte XSS web saldırılarının yapay zekâ zemininde analiz edilmesi / In cyber security XSS web attacks analysis on the basis of artificial intelligence](https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=LY6e5xGA7WWUpEdrBmEPLpyBMlCYqig77z7kaRWyf5I_eI2vqlQnxo_Ao67sScv4)
 
